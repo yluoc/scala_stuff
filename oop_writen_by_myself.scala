@@ -96,7 +96,7 @@ class Matrix{
 
   def set_elements(Row_coordinates: Int, Column_coordinates: Int, Corresponding_value: Int): Array[Array[Int]]= {
     original_matrix1(Row_coordinates)(Column_coordinates) = Corresponding_value
-    println("value at "+"("+Row_coordinates+")"+"("+Column_coordinates+")"+" has been changed to "+Corresponding_value)
+    println("value at "+"("+Row_coordinates+")"+"("+Column_coordinates+")"+" is changed to "+Corresponding_value)
     original_matrix1
   }
 //a, b, c is used to iterate. sum is used to multiply two matrix
