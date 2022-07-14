@@ -1,5 +1,6 @@
 /**
 this function is used to make an integer list into a list which only contains odd number without using "for loop" or "if, else"
+also, this function is used to get the odd number's square and sum them up, return an integer.
 */
 object question_2 {
   def find_odd_square(list: List[Int])={
